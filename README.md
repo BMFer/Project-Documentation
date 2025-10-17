@@ -37,7 +37,8 @@ Project-Documentation/
 │   ├── vscode-best-practices.md        # VS Code for documentation
 │   ├── github-workflows.md     # Git & GitHub workflows
 │   ├── documentation-types.md  # Types of documentation
-│   └── public-vs-private.md    # Security & privacy guide
+│   ├── public-vs-private.md    # Security & privacy guide
+│   └── community-building.md   # Building developer communities
 │
 ├── whitepapers/                 # In-Depth Technical Papers
 │   ├── README.md               # Whitepaper writing guide
@@ -77,6 +78,7 @@ Start with the comprehensive guides in [`docs/`](docs/):
 - **Using VS Code?** → [VS Code Best Practices](docs/vscode-best-practices.md)
 - **Learning Git/GitHub?** → [GitHub Workflows](docs/github-workflows.md)
 - **Need security guidance?** → [Public vs Private](docs/public-vs-private.md)
+- **Building a community?** → [Community Building](docs/community-building.md)
 
 ### 3. Use the Templates
 
@@ -105,8 +107,8 @@ code ../your-project/README.md
 
 ### 📖 Comprehensive Documentation
 
-- **30+ Files**: Covering all aspects of documentation
-- **100,000+ Words**: In-depth educational content
+- **33+ Files**: Covering all aspects of documentation
+- **115,000+ Words**: In-depth educational content
 - **Real Examples**: Practical, ready-to-use content
 - **Best Practices**: Industry-standard approaches
 - **Multi-Language**: Code documentation for JavaScript, Python, Java, C#
@@ -146,6 +148,7 @@ code ../your-project/README.md
 | [GitHub Workflows](docs/github-workflows.md) | Git and GitHub for version control and collaboration |
 | [Documentation Types](docs/documentation-types.md) | When and how to create different doc types |
 | [Public vs Private](docs/public-vs-private.md) | Security and privacy in documentation |
+| [Community Building](docs/community-building.md) | Build thriving developer communities through documentation |
 
 ### Reference Documentation
 
