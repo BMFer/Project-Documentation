@@ -1,0 +1,36 @@
+# .gitleaksignore
+# GitLeaks ignore file for educational documentation repository
+#
+# This repository contains EDUCATIONAL EXAMPLES of sensitive data patterns.
+# All examples use placeholder/dummy values to teach developers what to avoid.
+# These are NOT real credentials.
+
+# Ignore all findings in documentation files that contain educational examples
+docs/public-vs-private.md:*
+docs/github-workflows.md:*
+docs/vscode-best-practices.md:*
+
+# Ignore template and example files
+examples/**
+whitepapers/**
+roadmaps/**
+
+# Ignore specific educational sections
+*:NEVER COMMIT THESE
+*:Example API key (NOT REAL)
+*:Placeholder*
+*:EXAMPLE*
+*:your_*_key_here
+*:dummy values
+
+# Allow AWS EXAMPLE keys (official AWS documentation examples)
+*:AKIAIOSFODNN7EXAMPLE
+*:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Allow Stripe test key placeholders
+*:sk_test_XXXXXXXXXXXXXXXXXXXXXXXX
+
+# Allow generic placeholder patterns
+*:XXXXXXXXXXXXXXXXXXXXXXXX
+*:password@localhost
+*:user:password@host

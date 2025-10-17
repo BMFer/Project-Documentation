@@ -42,6 +42,12 @@ Project-Documentation/
 
 This is an educational resource. Feel free to use these templates and patterns in your own projects.
 
+## Security Notice
+
+⚠️ **Important**: This repository contains educational examples of sensitive data patterns (API keys, credentials, etc.). All examples are **placeholders/dummy values** used for teaching purposes. See [SECURITY_NOTICE.md](SECURITY_NOTICE.md) for details.
+
+If you receive secret scanning alerts, this is expected and safe - the "secrets" are educational examples showing what NOT to commit in real projects.
+
 ## License
 
 [To be determined]

@@ -1,0 +1,51 @@
+# .gitallowed
+# This file contains patterns for allowed "secrets" in this repository.
+# These are educational examples and placeholder values, NOT real credentials.
+
+# Purpose: This is a documentation/educational repository that contains
+# EXAMPLES of what sensitive data looks like. All examples use dummy/placeholder
+# values to teach developers what to avoid in real projects.
+
+# AWS Example Credentials (contain "EXAMPLE" suffix - not real)
+AKIAIOSFODNN7EXAMPLE
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Stripe Test API Keys (placeholder format)
+sk_test_XXXXXXXXXXXXXXXXXXXXXXXX
+sk_live_51HqE
+
+# Generic Placeholder Patterns
+your_stripe_key_here
+your_sendgrid_key_here
+YOUR_API_KEY
+ghp_1234567890abcdef
+a3f8c9d2e1b4
+my-super-secret-key
+
+# Example Tokens and Keys
+SG.XXXXXXXXXXXXXXXXXXXXXXXX
+wJalrXUtnFEMI
+
+# Database Connection Examples
+postgresql://user:password@host:5432/db
+postgresql://user:password@localhost:5432/dbname
+postgresql://user:password@localhost:5432/myapp_dev
+
+# Internal IP Examples (RFC 1918 private addresses used as examples)
+10.0.1.10
+10.0.2.10
+10.0.3.10
+
+# Example Domains
+admin.internal.myapp.com
+staging-db.myapp.internal
+api.internal.myapp.com
+db.internal.company.com
+bastion.internal.myapp.com
+
+# Placeholder secrets in .env examples
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+STRIPE_SECRET_KEY=sk_live_51HqE
+JWT_SECRET=my-super-secret-key
+API_TOKEN=ghp_1234567890abcdef

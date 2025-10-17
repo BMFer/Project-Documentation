@@ -1,0 +1,49 @@
+# IMPORTANT: This is an educational documentation repository
+# The documentation contains EXAMPLES of sensitive data (all are placeholders)
+# See SECURITY_NOTICE.md for details
+
+# Secrets and credentials (REAL ones, not educational examples)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+config/secrets.yml
+credentials.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sql
+
+# Backup files
+*.bak
+*.tmp
+~$*
+
+# Environment specific
+config/production.yml
+config/local.yml
+
+# NOTE: .gitallowed, .gitleaksignore, and .secretsignore are INCLUDED
+# These configure secret scanners to ignore educational examples
