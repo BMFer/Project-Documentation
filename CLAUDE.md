@@ -9,6 +9,7 @@ This is an educational documentation repository designed to help growing develop
 ## Purpose
 
 This repository serves as a learning resource and template for developers to:
+
 - Learn documentation best practices using VS Code and GitHub
 - Understand how to structure project documentation
 - Create clear, informative content for both public and private audiences
